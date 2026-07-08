@@ -18,6 +18,6 @@ CLASS zcl_jd1_helloworld IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
 
   out->write( 'Hello World' ).
-
+ out->write( 'Edited in Github' ).
   ENDMETHOD.
 ENDCLASS.
